@@ -7,6 +7,7 @@ body{
     font-family: sans-serif;
     color: #4b4b4b;
     width: 100%;
+    /* border: 2px solid red; */
 }
 /* header styling */
 
@@ -20,11 +21,12 @@ body{
     padding: 4vh 14vw;
     height: 12vh;
     border-bottom: 2px solid #f2f2f2;
-    margin-bottom: 64vh;
+    margin-bottom: 5vh;
 }
 .options{
     display: flex;
-    gap: 2vw;
+    gap: 3vw;
+    
 }
 .options a{ 
     text-decoration: none;
@@ -41,10 +43,11 @@ body{
     justify-content: center;
     height: 88vh;
     gap: 4vh;
+    
 }
 .img-1{
     width: 48vw;
-    height: 48vh;
+    height: 46vh;
 }
 .main h2{
     text-align: center;
@@ -71,29 +74,34 @@ body{
 .mains-2{
     display: flex;
     justify-content: center; 
-    padding: 0vh 14vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
     width: 100%;
-    gap: 3vw;
+    gap: 4vw;
     margin-top:12vh ;
+      
 }
+
 .img-2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4vh;
+    gap: 2vh;
     width: 60%;
+   
     
 }
 .img-2 img{
     align-items: center;
-    width: 100%;
+    width: 90%;
 
 }
 .anch{
     display: flex;
     gap: 6vw;
     text-align: start;
+       
 }
 .anch a{
     color: #387ed1;
@@ -128,4 +136,60 @@ body{
 .paras p{
     color:  #666;
     font-size: 16px;
+}
+.press-logos{
+    width: 100%;
+    margin-top: 6vh;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 14vh;
+}
+/* Section 3 pricing and img */
+.main-3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 12vw;
+    padding-left: 12vw
+}
+.price{
+    width: 40%;
+    gap: 4vh;
+}
+.price h2{ 
+    font-size: 40px;
+   line-height: 1.5;
+   text-align: start;
+   font-weight: 500;
+   color: #424242;
+   margin-bottom: 3vh;
+}
+.price p{
+    color:  #666;
+    font-size: 16px;
+    word-spacing: 4px;    
+    line-height: 4.4vh;
+    margin-bottom: 3vh;
+}
+.pricing-box{
+    width: 60%;
+    display: flex;
+    align-items: center;
+ 
+    gap: 8vw;
+   
+}
+.img-3 {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    width: 16%;
+    
+}
+.pricing-box p{
+        font-size: 10px;
+    margin: 0;
+    color: #666;
+    line-height: 16px;
 }
