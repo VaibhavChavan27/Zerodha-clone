@@ -6,7 +6,6 @@
 body{
     font-family: sans-serif;
     color: #4b4b4b;
-    height: 100%;
 }
 /* header styling */
 
@@ -66,3 +65,51 @@ body{
     font-weight: 500;
 }
 
+/* Section 2 */
+.mains-2{
+    display: flex;
+    justify-content: center; 
+    padding: 0vh 14vw;
+    width: 100%;
+    height: 100%;
+    gap: 3vw;
+    margin-top:12vh ;
+}
+.img-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    width: 100%;
+    height: 100%;
+    /* padding-top: 50px; */
+    margin-top: 64px;
+}
+.img-2 img{
+    align-items: center;
+    width: 100%;
+    height: 120%;
+}
+.anch{
+    display: flex;
+    gap: 4vw;
+}
+.anch a{
+    color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;
+}
+.paras{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    gap: 5vh;
+}
+.paras h2{
+   font-size: 40px;
+   line-height: 1.5;
+   text-align: start;
+   font-weight: 500;
+}
