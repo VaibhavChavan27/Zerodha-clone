@@ -55,6 +55,8 @@ body{
     line-height: 1.25;
     padding: 20px 0px;
     margin-top: 2vh;
+    font-weight: 500;
+    color: #424242;
 }
 .main p{
     font-size: 20px;
@@ -184,7 +186,6 @@ body{
     width: 60%;
     display: flex;
     align-items: center;
- 
     gap: 8vw;
    
 }
@@ -250,4 +251,111 @@ body{
     word-spacing: 4px;    
     line-height: 4vh;
     
+}
+/* Section 5 */
+.main-5{
+    margin-top: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+}
+.main-5 h2{
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.25;
+    padding: 20px 0px;
+    margin-bottom: 2vh;
+    font-weight: 500;
+     color: #424242;
+}
+.main-5 p{
+    font-size: 20px;
+}
+.main-5 button{
+    margin-top: 2vh;
+    border: none;
+    background-color: #387ed1;
+    color:#fff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Footer Section */
+footer{
+    background-color: #fbfbfb;
+    padding: 30px 0 5px 0;
+    border-top: 1px solid #eee;
+    margin-top: 12vh;
+    width: 100%;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-top: 2vh;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    padding-top: 2vh;
+}
+.icons p{
+    color: #666;
+    line-height: 2vh;
+    font-size: 15px;
+    word-spacing: 3px;
+}
+.icons .imgs{
+     width: 10vw;
+}
+.icons .icon1{
+    padding: 10px;
+    word-spacing: 10px;
+    border-bottom: 2px solid #f2f2f2;
+}
+.icons .icon2{
+    padding: 0px 6px;
+    word-spacing: 10px;
+}
+.lis{
+    display: flex;
+    gap: 4vw;
+}
+li{
+    display: flex;
+    color: #424242;
+    line-height: 8vh;
+    word-spacing: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+li a{
+    text-decoration: none;
+    color: #666;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 2;
+}
+.fpara{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: sans-serif  ;
+    line-height: 2vh;
+    word-spacing: 2px;
+    color: #666;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-top: 10px;
+    margin-top: 4vh;
 }
