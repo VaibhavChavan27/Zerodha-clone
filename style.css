@@ -6,6 +6,7 @@
 body{
     font-family: sans-serif;
     color: #4b4b4b;
+    width: 100%;
 }
 /* header styling */
 
@@ -19,6 +20,7 @@ body{
     padding: 4vh 14vw;
     height: 12vh;
     border-bottom: 2px solid #f2f2f2;
+    margin-bottom: 64vh;
 }
 .options{
     display: flex;
@@ -40,13 +42,13 @@ body{
     height: 88vh;
     gap: 4vh;
 }
-.main .img-1{
-    margin-top: 4vh;
-    width: 52vw;
+.img-1{
+    width: 48vw;
+    height: 48vh;
 }
 .main h2{
     text-align: center;
-    font-size: 34px;
+    font-size: 44px;
     line-height: 1.25;
     padding: 20px 0px;
     margin-top: 2vh;
@@ -55,7 +57,7 @@ body{
     font-size: 20px;
 }
 .main button{
-    margin-top: 3.5vh;
+    margin-top: 2vh;
     border: none;
     background-color: #387ed1;
     color:#fff;
@@ -71,7 +73,6 @@ body{
     justify-content: center; 
     padding: 0vh 14vw;
     width: 100%;
-    height: 100%;
     gap: 3vw;
     margin-top:12vh ;
 }
@@ -80,36 +81,51 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2vh;
-    width: 100%;
-    height: 100%;
-    /* padding-top: 50px; */
-    margin-top: 64px;
+    gap: 4vh;
+    width: 60%;
+    
 }
 .img-2 img{
     align-items: center;
     width: 100%;
-    height: 120%;
+
 }
 .anch{
     display: flex;
-    gap: 4vw;
+    gap: 6vw;
+    text-align: start;
 }
 .anch a{
     color: #387ed1;
     text-decoration: none;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: start;
 }
 .paras{
     display: flex;
     flex-direction: column;
-    width: 60%;
-    height: 100%;
+    width:40%;
     gap: 5vh;
+    word-spacing: 4px;
+    line-height: 3.5vh;
+   
 }
 .paras h2{
    font-size: 40px;
    line-height: 1.5;
    text-align: start;
    font-weight: 500;
+   color: #424242;
+}
+.paras .p1{
+    color: #424242;
+     font-weight: 500;
+    line-height: 1.5;
+    font-size: 24px;
+    margin-bottom: 1vh;
+}
+.paras p{
+    color:  #666;
+    font-size: 16px;
 }
