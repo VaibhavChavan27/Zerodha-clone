@@ -33,6 +33,9 @@ body{
     color: #666;
     font-size: 16px;
 }
+.options a:hover{
+    color: #387ed1;
+}
 /* header end */
 
 /* main section */
@@ -70,6 +73,11 @@ body{
     border-radius: 4px;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
+}
+.main button:hover{
+    background-color: black;
+    color: #fff;
 }
 
 /* Section 2 */
@@ -146,6 +154,8 @@ body{
     text-align: center;
     align-items: center;
     margin-bottom: 14vh;
+    padding-left: 12vw;
+    padding-right: 12vw;
 }
 /* Section 3 pricing and img */
 .main-3{
@@ -282,6 +292,11 @@ body{
     border-radius: 4px;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
+}
+.main-5 button:hover{
+    background-color: black;
+    color: #fff;
 }
 /* Footer Section */
 footer{
@@ -383,4 +398,113 @@ li a{
     line-height: 4;
     font-size: 12px;
     font-weight: 600;
+}
+
+/* Signup Section */
+.main-signup {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6vh;
+    padding-bottom: 32px;
+}
+.main-signup h2{
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.25;
+    padding: 20px 0px;
+    margin-top: 2vh;
+    font-weight: 500;
+    color: #424242;
+}
+.main-signup p{
+    font-size: 20px;
+}
+.sign-Up{
+    width: 100%;
+    display: flex;
+    gap: 4vw;
+     /* border: 2px solid red; */
+     margin-top: 2vh;
+}
+.sign-Up img{
+     /* border: 2px solid red; */
+    padding-left: 12vw;
+   height: 54vh;
+
+}
+.signup-form{
+    width: 100%;
+    display: flex;
+    padding-top: 12px;
+    flex-direction: column;
+    justify-content: center;
+}
+.signup-form h3{
+    font-size: 36px;
+    color: #424242;
+    line-height: 3.5vh;
+   padding-bottom: 20px;
+   font-weight: 500;
+}
+.signup-form p{
+    color: #9b9b9b;
+    word-spacing: 6px;
+    font-size: 16px;
+    padding-bottom: 26px;
+}
+.signup-form .p1{
+    color: #9b9b9b;
+    word-spacing: 4px;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 14px;
+}
+.signup-form input{
+    width: 20vw;
+    height: 8vh;
+    text-align: center;
+    font-size: 16px;
+}
+.sign-Up button{
+    width: 8vw;
+    height: 6vh;
+    margin-top: 2vh;
+    border: none;
+    background-color: #387ed1;
+    color:#fff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.sign-Up button:hover{
+    background-color: black;
+    color: #fff;
+}
+.sign-Up a{
+    text-decoration: none;
+    padding-top: 12px;
+    color: #387ed1;
+    font-size: 12px;
+    font-weight: 600;
+}
+.para-sign{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 4vh;
+    padding: 10px;
+}
+.para-sign p{
+    font-size: 12px;
+    color: #666;
+}
+.para-sign a{
+    text-decoration: none;
+    color: #387ed1;
 }
