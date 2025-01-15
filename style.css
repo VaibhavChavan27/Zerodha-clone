@@ -580,3 +580,69 @@ li a{
     text-decoration: none;
     color: #387ed1;
 }
+
+/* Ceo Sectios */
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    padding: 60px 0px;
+}
+.box h2{
+    font-size: 34px;
+    font-weight: 500;
+}
+.boxs{
+    width: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 8vh;
+    
+}
+.boxs img{
+  
+    height: 295px;
+    border-radius: 50%;
+}
+.ceo{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vh;
+}
+.ceo p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #424242;
+}
+.ceo span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+}
+.ceo-info{
+    width: 40%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    text-align: start;
+}
+.ceo-info p{
+    display: flex;
+    flex-direction: row; 
+    font-size: 16px;
+    line-height: 2;
+    gap: 1vw;
+}
+.ceo-info a{
+    text-decoration: none;
+    color: #387ed1;
+}
