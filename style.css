@@ -338,6 +338,9 @@ footer{
     padding: 0px 6px;
     word-spacing: 10px;
 }
+.icons i{
+    color: #666;
+}
 .lis{
     display: flex;
     gap: 4vw;
@@ -651,18 +654,44 @@ li a{
 
 /* About  Employees section */
 .employee{
-    border: 2px solid red;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 16vh;
+   
 }
 .employee .emp{
-    border: 2px solid blue;
+    
     width: 80%;
     display: flex;
-    align-items: start;
-    justify-content: center;
+    align-items: center;
+    justify-content: start;
     flex-direction: row;
+    gap: 8vw;
+    padding-top: 50px;
+    margin-left: 14vw;
+    
+}
+.emp  img{
+    height: 265px;
+    border-radius: 50%;
+}
+.emp div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vh;
+}
+.emp p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #424242;
+}
+.emp span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
 }
